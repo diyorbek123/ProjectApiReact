@@ -11,3 +11,129 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+html{
+  font-size: 90%;
+}
+
+.card-shadow{
+  box-shadow: 4px 4px 8px rgb(163, 163, 163);
+}
+
+
+
+.card-body .card-title{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.card-body .card-title span{
+  font-weight: 400;
+  font-family: "Helvetica Neue",Helvetica,Arial;
+  /* font-size: 16px; */
+}
+
+.card-body .card-text{
+  /* font-size: 18px; */
+  font-weight: 600;
+}
+
+.card-body .card-text span{
+  font-weight: 400;
+  font-family: "Helvetica Neue",Helvetica,Arial;
+  /* font-size: 14px; */
+}
+
+.productId{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding: 50px;
+  margin: 60px 0px 0px 0px;
+  box-shadow: 4px 4px 8px rgb(163, 163, 163);
+}
+
+.product-info{
+  /* font-size: 18px; */
+  font-weight: 600;
+  line-height: 45px;
+}
+
+.product-info span{
+  font-weight: 400;
+  font-family: "Helvetica Neue",Helvetica,Arial;
+  /* font-size: 16px; */
+}
+
+
+.form-search{
+  width: 50%;
+  margin: 20px auto;
+  display: flex;
+}
+
+.form-search button{
+  border: 1px solid gray;
+}
+
+
+.ant-pagination-item-link {
+  border: none !important;
+}
+.pagination-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0 10px 25px 0px;
+}
+
+.ant-input-affix-wrapper{
+  padding: 6px 15px !important;
+}
+
+.error-back{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.error-back span{
+  font-family: "Helvetica Neue",Helvetica,Arial;
+  opacity: 0.5;
+}
+
+
+
+
+@media screen and (max-width:1200px){
+  .productIdCardImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  html{
+    font-size: 75%;
+  }
+}
+
+
+@media screen and (max-width:786px){
+  .productIdCardImg img{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .product-img-info{
+    width: 90%;
+  }
+  .product-info{
+    line-height:30px;
+  }
+  .productId{
+    padding: 20px;
+  }
+  html{
+    font-size: 65%;
+  }
+}
